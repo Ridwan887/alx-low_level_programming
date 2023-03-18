@@ -1,6 +1,5 @@
 #include<stdio.h>
 /**
- *
  * main - alphabetic
  *
  * Return: 0
@@ -8,8 +7,10 @@
 int main(void)
 {
 	int i;
-	for(i = 'a'; i <= 'z'; i++)
+
+	for (i = 'a' ; i <= 'z' ; i++)
 		putchar(i);
 	putchar('\n');
-	return (0)
+	return (0);
+
 }
