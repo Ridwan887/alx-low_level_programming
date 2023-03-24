@@ -1,13 +1,18 @@
 #include "main.h"
+
 /**
- * isdigit - to test if number 0 is the number through 9
- *
- * Return: 0 or 1
+ * _isdigit - checks if digit
+ * @c: value to be tested
+ * Return: 1 for upper and 0 for lower
  */
 int _isdigit(int c)
 {
-	if (c >= '0' && c <= '9')
+	if (c >= 48 && c <= 57)
+	{
 		return (1);
+	}
 	else
+	{
 		return (0);
+	}
 }
